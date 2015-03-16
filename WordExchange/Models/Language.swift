@@ -11,6 +11,12 @@ import CoreData
 
 class Language: NSManagedObject {
 
+    convenience init(context: NSManagedObjectContext)
+    {
+        let entityDescription = NSEntityDescription.entityForName("Language", inManagedObjectContext: context)!
+        self.init(entity: entityDescription, insertIntoManagedObjectContext: context)
+    }
+    
     @NSManaged var name: String
     @NSManaged var guid: String
     @NSManaged var languageId: NSNumber

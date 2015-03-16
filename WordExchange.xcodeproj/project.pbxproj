@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498887E81AB7047B00F85CE0 /* ServiceRequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA045E1AB6EC300063826D /* ServiceRequestStatus.swift */; };
+		498887EC1AB7077700F85CE0 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887EB1AB7077700F85CE0 /* NSDateExtension.swift */; };
+		498887ED1AB7077700F85CE0 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887EB1AB7077700F85CE0 /* NSDateExtension.swift */; };
+		498887F01AB7092B00F85CE0 /* LanguageImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887EF1AB7092B00F85CE0 /* LanguageImporter.swift */; };
+		498887F11AB7092B00F85CE0 /* LanguageImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887EF1AB7092B00F85CE0 /* LanguageImporter.swift */; };
+		498887F51AB7154C00F85CE0 /* CoreDataTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887F41AB7154C00F85CE0 /* CoreDataTestCase.swift */; };
+		498887F71AB717D600F85CE0 /* NSManagedObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887F61AB717D600F85CE0 /* NSManagedObjectExtension.swift */; };
+		498887F81AB717D600F85CE0 /* NSManagedObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887F61AB717D600F85CE0 /* NSManagedObjectExtension.swift */; };
 		49EA04201AB6D0440063826D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA041F1AB6D0440063826D /* AppDelegate.swift */; };
 		49EA04231AB6D0440063826D /* WordExchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04211AB6D0440063826D /* WordExchange.xcdatamodeld */; };
 		49EA04251AB6D0440063826D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04241AB6D0440063826D /* ViewController.swift */; };
@@ -20,6 +28,10 @@
 		49EA04511AB6D3F00063826D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA044F1AB6D3F00063826D /* Language.swift */; };
 		49EA04521AB6D42E0063826D /* LanguageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04461AB6D1150063826D /* LanguageRepository.swift */; };
 		49EA04531AB6D4340063826D /* LanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04431AB6D0B10063826D /* LanguageService.swift */; };
+		49EA04561AB6E0390063826D /* LanguageImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04551AB6E0390063826D /* LanguageImportTests.swift */; };
+		49EA045A1AB6E1BE0063826D /* LanguageRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA04591AB6E1BE0063826D /* LanguageRepositoryStub.swift */; };
+		49EA045D1AB6EA420063826D /* LanguageServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA045C1AB6EA420063826D /* LanguageServiceStub.swift */; };
+		49EA045F1AB6EC300063826D /* ServiceRequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EA045E1AB6EC300063826D /* ServiceRequestStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498887EB1AB7077700F85CE0 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = Utility/Extensions/NSDateExtension.swift; sourceTree = "<group>"; };
+		498887EF1AB7092B00F85CE0 /* LanguageImporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageImporter.swift; path = DataImport/LanguageImporter.swift; sourceTree = "<group>"; };
+		498887F41AB7154C00F85CE0 /* CoreDataTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTestCase.swift; sourceTree = "<group>"; };
+		498887F61AB717D600F85CE0 /* NSManagedObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSManagedObjectExtension.swift; path = Utility/Extensions/NSManagedObjectExtension.swift; sourceTree = "<group>"; };
 		49EA041A1AB6D0440063826D /* WordExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EA041E1AB6D0440063826D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EA041F1AB6D0440063826D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +64,10 @@
 		49EA04461AB6D1150063826D /* LanguageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageRepository.swift; path = Repositories/LanguageRepository.swift; sourceTree = "<group>"; };
 		49EA044B1AB6D3900063826D /* WordExchange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordExchange-Bridging-Header.h"; sourceTree = "<group>"; };
 		49EA044F1AB6D3F00063826D /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Models/Language.swift; sourceTree = "<group>"; };
+		49EA04551AB6E0390063826D /* LanguageImportTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageImportTests.swift; path = ImportLogicTests/LanguageImportTests.swift; sourceTree = "<group>"; };
+		49EA04591AB6E1BE0063826D /* LanguageRepositoryStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageRepositoryStub.swift; path = TestDoubles/Repositories/LanguageRepositoryStub.swift; sourceTree = "<group>"; };
+		49EA045C1AB6EA420063826D /* LanguageServiceStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageServiceStub.swift; path = TestDoubles/Services/LanguageServiceStub.swift; sourceTree = "<group>"; };
+		49EA045E1AB6EC300063826D /* ServiceRequestStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceRequestStatus.swift; path = Services/ServiceRequestStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		498887E91AB7075000F85CE0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				498887EA1AB7075800F85CE0 /* Extensions */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		498887EA1AB7075800F85CE0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				498887EB1AB7077700F85CE0 /* NSDateExtension.swift */,
+				498887F61AB717D600F85CE0 /* NSManagedObjectExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		498887EE1AB7090900F85CE0 /* DataImport */ = {
+			isa = PBXGroup;
+			children = (
+				498887EF1AB7092B00F85CE0 /* LanguageImporter.swift */,
+			);
+			name = DataImport;
+			sourceTree = "<group>";
+		};
 		49EA04111AB6D0440063826D = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +135,8 @@
 		49EA041C1AB6D0440063826D /* WordExchange */ = {
 			isa = PBXGroup;
 			children = (
+				498887EE1AB7090900F85CE0 /* DataImport */,
+				498887E91AB7075000F85CE0 /* Utility */,
 				49EA04481AB6D2DD0063826D /* Models */,
 				49EA04451AB6D0DC0063826D /* Repositories */,
 				49EA04421AB6D0770063826D /* Services */,
@@ -115,8 +162,11 @@
 		49EA04351AB6D0440063826D /* WordExchangeTests */ = {
 			isa = PBXGroup;
 			children = (
+				49EA04571AB6E1820063826D /* TestDoubles */,
+				49EA04541AB6E00B0063826D /* ImportLogicTests */,
 				49EA04381AB6D0440063826D /* WordExchangeTests.swift */,
 				49EA04361AB6D0440063826D /* Supporting Files */,
+				498887F41AB7154C00F85CE0 /* CoreDataTestCase.swift */,
 			);
 			path = WordExchangeTests;
 			sourceTree = "<group>";
@@ -133,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				49EA04431AB6D0B10063826D /* LanguageService.swift */,
+				49EA045E1AB6EC300063826D /* ServiceRequestStatus.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -151,6 +202,39 @@
 				49EA044F1AB6D3F00063826D /* Language.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		49EA04541AB6E00B0063826D /* ImportLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				49EA04551AB6E0390063826D /* LanguageImportTests.swift */,
+			);
+			name = ImportLogicTests;
+			sourceTree = "<group>";
+		};
+		49EA04571AB6E1820063826D /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				49EA045B1AB6EA160063826D /* Services */,
+				49EA04581AB6E1910063826D /* Repositories */,
+			);
+			name = TestDoubles;
+			sourceTree = "<group>";
+		};
+		49EA04581AB6E1910063826D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				49EA04591AB6E1BE0063826D /* LanguageRepositoryStub.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		49EA045B1AB6EA160063826D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49EA045C1AB6EA420063826D /* LanguageServiceStub.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EA04251AB6D0440063826D /* ViewController.swift in Sources */,
+				498887F01AB7092B00F85CE0 /* LanguageImporter.swift in Sources */,
+				49EA045F1AB6EC300063826D /* ServiceRequestStatus.swift in Sources */,
 				49EA04441AB6D0B10063826D /* LanguageService.swift in Sources */,
 				49EA04231AB6D0440063826D /* WordExchange.xcdatamodeld in Sources */,
+				498887EC1AB7077700F85CE0 /* NSDateExtension.swift in Sources */,
 				49EA04501AB6D3F00063826D /* Language.swift in Sources */,
 				49EA04201AB6D0440063826D /* AppDelegate.swift in Sources */,
 				49EA04471AB6D1150063826D /* LanguageRepository.swift in Sources */,
+				498887F71AB717D600F85CE0 /* NSManagedObjectExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +356,16 @@
 			files = (
 				49EA04521AB6D42E0063826D /* LanguageRepository.swift in Sources */,
 				49EA04531AB6D4340063826D /* LanguageService.swift in Sources */,
+				49EA045D1AB6EA420063826D /* LanguageServiceStub.swift in Sources */,
+				498887E81AB7047B00F85CE0 /* ServiceRequestStatus.swift in Sources */,
+				498887F51AB7154C00F85CE0 /* CoreDataTestCase.swift in Sources */,
 				49EA04391AB6D0440063826D /* WordExchangeTests.swift in Sources */,
+				498887F81AB717D600F85CE0 /* NSManagedObjectExtension.swift in Sources */,
+				49EA045A1AB6E1BE0063826D /* LanguageRepositoryStub.swift in Sources */,
+				498887ED1AB7077700F85CE0 /* NSDateExtension.swift in Sources */,
 				49EA04511AB6D3F00063826D /* Language.swift in Sources */,
+				498887F11AB7092B00F85CE0 /* LanguageImporter.swift in Sources */,
+				49EA04561AB6E0390063826D /* LanguageImportTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +554,7 @@
 				49EA043E1AB6D0440063826D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49EA043F1AB6D0440063826D /* Build configuration list for PBXNativeTarget "WordExchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +563,7 @@
 				49EA04411AB6D0440063826D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

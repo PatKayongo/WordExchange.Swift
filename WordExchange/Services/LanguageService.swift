@@ -8,5 +8,8 @@
 
 import Foundation
 
-
+internal protocol LanguageService
+{
+    func getAllLanguages(completion: (requestStatus:ServiceRequestStatus, languages: [Language]) -> ())
+}
 

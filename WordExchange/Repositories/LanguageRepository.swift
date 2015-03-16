@@ -10,6 +10,7 @@ import Foundation
 
 internal protocol LanguageRepository
 {
+    func addLanguage(language:Language)
     func getAllLanguages() -> Array<Language>
-    func getLanguageByIsoCode(isoCode:String) -> Language
+    func getLanguageByIsoCode(isoCode:String) -> Language?
 }
